@@ -38,7 +38,7 @@ h2.titulo {
     margin-top: 100px;
     text-decoration: none;
     display: inline-block;
-    
+
 
 }
 
@@ -79,7 +79,6 @@ header nav ul li {
     box-shadow: 0px 0px 8px;
     color: antiquewhite;
     transform: scale(1.05);
-    ;
 }
 
 section .topo-do-site {
@@ -142,7 +141,7 @@ body {
 }
 
 /* ESTILO DA ESPECIALIDADE */
-section .especialidades {
+section.especialidades {
     padding: 40px 0%;
 }
 
@@ -160,13 +159,13 @@ section .especialidades .flex {
     margin-top: 30px;
     text-align: center;
     transition: .2s;
-    
+
 }
 
 .especialidades .especialidades-box i {
     font-size: 60px;
     color: rgb(210, 13, 13);
-    
+
 }
 
 .especialidades .especialidades-box h3 {
@@ -189,18 +188,47 @@ section .especialidades .flex {
     transform: scale(1.02);
 }
 
-/* ESTILO DO PORTFÓLIO */
-section .sobre {
+/* ESTILO SOBRE MIM */
+header.sobre {
     padding: 40px 4%;
 }
 
-section .sobre .flex {
-    align-items: center;
+header.sobre .flex {
     gap: 60px;
+    align-items: center;
 }
 
-.sobre .txt-sobre{
-    color: antiquewhite;
-    font-size: 20px;
-    line-height: 30px;
+.sobre .txt-sobre {
+    color: antiquewhite
+}
+
+.sobre .txt-sobre h2 {
+    font-size: 35px;
+    line-height: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-align: fixed;
+}
+
+.sobre .txt-sobre h2 span {
+    color: rgb(145, 4, 4);
+    display: block;
+}
+
+.sobre .txt-sobre p {
+    text-align: justify;
+    margin: 20px 0;
+;
+}
+
+.sobre .txt-sobre .btn-contato {
+    color: rgb(145, 4, 4);
+    display: block;
+}
+
+.img-sobre img {
+    width: 50%;
+    max-width: 300px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 25px rgba(110, 1, 1, 0.5);
 }
